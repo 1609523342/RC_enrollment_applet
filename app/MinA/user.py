@@ -26,7 +26,6 @@ def user_wx_login():
     sql_data = User.query.filter(User.openid == openid).first()
     if sql_data is None:
         token_context = wx_token_message(creat_and_save_sqldata(openid))
-
     else:
         token_context = wx_token_message(sql_data)
     return jsonify(creat_token(token_context))
@@ -80,7 +79,7 @@ def manager_auth():
         return Success(msg='删除成功')
 
 
-@MinAs.route('/password/', methods=['POST'])
+@MinAs.route('/password/', methods=['POST'],endpoint='password')
 @auth_root
 def change_password():
     form = ChangePasswordWtform(request.form)
@@ -96,7 +95,7 @@ def change_password():
         return RootException(msg='密码错误，修改失败')
 
 
-@MinAs.route('/wxadmin/', methods=['POST', 'GET'])
+@MinAs.route('/wxadmin/', methods=['POST', 'GET'], endpoint='wxadmin')
 @auth_root
 def wx_register_root():
     if request.method == 'POST':
@@ -113,6 +112,7 @@ def wx_register_root():
     if request.method =='GET':
         users = User.query.filter(User.openid == g.openid).first()
         return jsonify(show_root_message(users))
+
 
 
 def creat_token(token_context, time=app.config['WX_TIME']):
