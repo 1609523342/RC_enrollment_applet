@@ -10,16 +10,16 @@ from flask import jsonify
 app = creat_app()
 
 
-@app.route('/superadmin/', methods=['POST'])
+@app.route('/superadmin/', methods=['POST'])#clear
 def creat_super():
     data = SuperUser.query.filter(SuperUser.account =='super_admins').first()
     try:
         if not data:
-            superuser = SuperUser(root='2', root_name='6', account='super_admins',
+            superuser = SuperUser(root='2', root_name='0', account='super_admins',
                                    password='Superadministrator', student_id='无', student_name='无')
             db.session.add(superuser)
             db.session.commit()
-            return Success()
+            return Success(msg='创建成功')
     except:
         raise SQLException()
     else:

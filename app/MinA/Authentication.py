@@ -4,8 +4,8 @@ from app.forms.error_code import AuthException, TokenException, RootException
 from flask import request
 from flask import g
 user_list = ['processing_information', 'personal_information', 'wx_register_root']
-admin_list = ['personal_information', 'change_password', 'wx_register_root']
-super_list = ['super_processing_information', 'personal_information', 'manager_auth', 'change_password', 'wx_register_root']
+admin_list = ['processing_information', 'personal_information', 'change_password', 'wx_register_root']
+super_list = ['processing_information', 'personal_information', 'manager_auth', 'change_password', 'wx_register_root']
 function_list = [user_list, admin_list, super_list]
 
 

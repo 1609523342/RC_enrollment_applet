@@ -9,12 +9,11 @@ from run import app
 from collections import Iterable
 
 
-@MinAs.route('/information/', methods=['POST', 'GET', 'DELETE'], endpoint='processing_information')
+@MinAs.route('/information/', methods=['POST', 'GET', 'DELETE'], endpoint='processing_information')#0clear
 @auth_root
 def processing_information():
     if request.method == 'POST':
-        data = request.json
-        form = MessageWtforms(data=data)
+        form = MessageWtforms(data=request.json)
         form.validate_error_message()
         messages = message()
         messages.set_attrs(form.data)
@@ -28,33 +27,42 @@ def processing_information():
             if g.root == 2:
                 data = data_to_dict(message.query.all())
             elif g.root == 1:
-                data = data_to_dict(message.query.filter(message.first_choice == g.root_name))
+                data = data_to_dict(message.query.filter(message.first_choice == g.root_name).all())
+                data2 = data_to_dict(message.query.filter(message.second_choice == g.root_name).all())
+                data.update(data2)
             elif g.root == 0:
                 Users = User.query.filter(User.openid == g.openid).first()
                 messages = message.query.filter(message.student_id == Users.student_id).order_by(-message.id).first()
                 data = data_to_dict(messages)
         except:
             raise SQLMissException()
+        if data is None:
+            return SQLMissException(msg='没有查询到数据')
         return jsonify(data)
     elif request.method == 'DELETE':
         if g.root != 2:
             raise RootException
         else:
             del_id = request.form.get('student_id')
-            messages = message.query.filter(message.id == del_id).first()
-            db.session.delete(messages)
-            db.session.commit()
+            try:
+                messages = message.query.filter(message.student_id == del_id).first()
+            except:
+                SQLMissException(msg='查询不到该条数据')
+            try:
+                db.session.delete(messages)
+                db.session.commit()
+            except:
+                SQLException(msg='报名信息删除失败')
         return Success(msg='删除成功')
 
 
-@MinAs.route('/personal/information/', methods=['POST', 'GET'], endpoint='personal_information')
+@MinAs.route('/personal/information/', methods=['POST', 'GET'], endpoint='personal_information')#0clear
 @auth_root
 def personal_information():
     if request.method == 'POST':
-        data = request.json
-        form = PersonalMessageWtforms(data=data)
+        form = PersonalMessageWtforms(data=request.form)
         form.validate_error_message()
-        superusers = SuperUser.query.filter(SuperUser.student_id == form.student_id.data)
+        superusers = SuperUser.query.filter(SuperUser.student_id == form.student_id.data).first()
         if superusers:
             raise RootException(msg='您无法更改学号和姓名，请先获取邀请码，或者和管理员联系')
         try:
@@ -81,11 +89,12 @@ def store_personal_data(form):
 
 def store_processing_data(messages, forms):
     Users = User.query.filter(User.openid == g.openid).first()
-    Users.student_id = forms.student_id.data
-    Users.student_name = forms.student_name.data
-    db.session.add(messages)
-    db.session.commit()
-
+    if Users.student_id == Users.student_name:
+        Users.student_id = forms.student_id.data
+        Users.student_name = forms.student_name.data
+        db.session.add(messages)
+        db.session.commit()
+    return
 
 def data_to_dict(data):
     data_dict = {}
