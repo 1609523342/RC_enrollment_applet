@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="" />
+    <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +164,7 @@
       <workItem from="1585657546479" duration="431000" />
       <workItem from="1585658789599" duration="22207000" />
       <workItem from="1585744328387" duration="616000" />
-      <workItem from="1585798136263" duration="766000" />
+      <workItem from="1585798136263" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585798169438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="requirements&#10;删除了测试函数">
+      <created>1585799201748</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585799201748</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,13 +234,14 @@
     <MESSAGE value="修改了endpoint异常" />
     <MESSAGE value="生成了requirements.txt文件" />
     <MESSAGE value="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。" />
+    <MESSAGE value="requirements&#10;删除了测试函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements&#10;删除了测试函数" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585798166024">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585799194900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585798166024" />
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799194900" />
     <state x="901" y="443" width="573" height="205" key="Github.ShareDialog" timestamp="1585604256309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -276,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585730703204" />
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585798297837">
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585799359132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585798297837" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799359132" />
     <state x="641" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585657992593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
