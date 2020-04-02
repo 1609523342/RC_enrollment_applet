@@ -26,15 +26,5 @@ def creat_super():
         return jsonify('该用户已存在,不可再创建')
 
 
-@app.route('/hello')
-def hello():
-    headers = {
-        'Content-Type': 'application/json'
-    }
-    data = {'openid': '201810098030', 'session_key': 'key'}
-    datas = json.dumps(data)
-    return datas, 200, headers
-
-
 if __name__ == '__main__':
     app.run(debug=app.config['DEBUG'])
