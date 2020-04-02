@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/MinA/Authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/MinA/Authentication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/MinA/information.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/MinA/information.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/MinA/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/MinA/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/forms/message_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/forms/message_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +137,8 @@
       <workItem from="1585493976683" duration="14202000" />
       <workItem from="1585527758052" duration="24395000" />
       <workItem from="1585657546479" duration="431000" />
-      <workItem from="1585658789599" duration="22102000" />
+      <workItem from="1585658789599" duration="22207000" />
+      <workItem from="1585744328387" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -159,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585660414781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。">
+      <created>1585742718947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585742718947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,13 +170,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了endpoint异常" />
     <MESSAGE value="生成了requirements.txt文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="生成了requirements.txt文件" />
+    <MESSAGE value="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585660410266">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585742715190">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585660410266" />
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585742715190" />
     <state x="901" y="443" width="573" height="205" key="Github.ShareDialog" timestamp="1585604256309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -183,38 +186,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="882" y="250" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585604387703" />
-    <state width="1540" height="276" key="GridCell.Tab.0.bottom" timestamp="1585742303479">
+    <state width="1540" height="344" key="GridCell.Tab.0.bottom" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585742303479" />
-    <state width="1540" height="276" key="GridCell.Tab.0.center" timestamp="1585742303479">
+    <state width="1540" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.0.center" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585742303479" />
-    <state width="1540" height="276" key="GridCell.Tab.0.left" timestamp="1585742303478">
+    <state width="1540" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.0.left" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585742303478" />
-    <state width="1540" height="276" key="GridCell.Tab.0.right" timestamp="1585742303479">
+    <state width="1540" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.0.right" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585742303479" />
-    <state width="1540" height="344" key="GridCell.Tab.1.bottom" timestamp="1585732259584">
+    <state width="1540" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.1.bottom" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585732259584" />
-    <state width="1540" height="344" key="GridCell.Tab.1.center" timestamp="1585732259584">
+    <state width="1540" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.1.center" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585732259584" />
-    <state width="1540" height="344" key="GridCell.Tab.1.left" timestamp="1585732259584">
+    <state width="1540" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.1.left" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585732259584" />
-    <state width="1540" height="344" key="GridCell.Tab.1.right" timestamp="1585732259584">
+    <state width="1540" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
+    <state width="1540" height="344" key="GridCell.Tab.1.right" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1540" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585732259584" />
+    <state width="1540" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
     <state x="295" y="131" key="SettingsEditor" timestamp="1585730703204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
