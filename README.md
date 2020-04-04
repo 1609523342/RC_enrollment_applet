@@ -82,3 +82,11 @@ python run.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 则运行成功
+###请求携带token
+token的构造有两种方式，第一种是通过访问微信的登录接口获取openid来构造token,该token必须以
+
+token:XXX
+
+放在headers里。
+
+若是采用网页登录的形式，则token会直接写入cookies，并且在浏览器不关闭之前都有效（若是设置了token有效时间则会按照有效时间，到期失效）
