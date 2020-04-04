@@ -26,7 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apply-api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,7 +167,9 @@
       <workItem from="1585657546479" duration="431000" />
       <workItem from="1585658789599" duration="22207000" />
       <workItem from="1585744328387" duration="616000" />
-      <workItem from="1585798136263" duration="1207000" />
+      <workItem from="1585798136263" duration="7393000" />
+      <workItem from="1585826839183" duration="9165000" />
+      <workItem from="1585967028255" duration="7056000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -201,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585799201748</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1">
+      <created>1585799525230</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585799525230</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,19 +241,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了endpoint异常" />
     <MESSAGE value="生成了requirements.txt文件" />
     <MESSAGE value="修改了巨多的细节错误，特定情况下的bug以及一些报错不规范不详细的问题。" />
     <MESSAGE value="requirements&#10;删除了测试函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements&#10;删除了测试函数" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585799194900">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585799521172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799194900" />
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799521172" />
+    <state x="708" y="275" key="FileChooserDialogImpl" timestamp="1585985320062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="708" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585985320062" />
     <state x="901" y="443" width="573" height="205" key="Github.ShareDialog" timestamp="1585604256309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -282,14 +300,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1540" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585742754642" />
-    <state x="295" y="131" key="SettingsEditor" timestamp="1585730703204">
+    <state x="295" y="131" key="SettingsEditor" timestamp="1585986908149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585730703204" />
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585799359132">
+    <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585986908149" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585799535410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799359132" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585799535410" />
     <state x="641" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585657992593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,12 +316,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="512" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585451419464" />
-    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1585741818203">
+    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1585988467712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585741818203" />
+    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585988467712" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1585742303471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1585989429068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

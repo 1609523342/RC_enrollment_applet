@@ -1,6 +1,5 @@
 #-- coding: UTF-8 --
 from app import creat_app
-import json
 from app.models.Application_model import SuperUser
 from app.models.Base_model import db
 from app.forms.error_code import Success, SQLException
