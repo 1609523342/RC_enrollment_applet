@@ -25,7 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="" />
+    <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/状态码.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +167,7 @@
       <workItem from="1585744328387" duration="616000" />
       <workItem from="1585798136263" duration="7393000" />
       <workItem from="1585826839183" duration="9165000" />
-      <workItem from="1585967028255" duration="7703000" />
+      <workItem from="1585967028255" duration="8434000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -215,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585989456109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="README文档添加了关于token的说明">
+      <created>1585990328673</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585990328673</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,17 +262,18 @@
     <MESSAGE value="requirements&#10;删除了测试函数" />
     <MESSAGE value="1" />
     <MESSAGE value="添加了README文档" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了README文档" />
+    <MESSAGE value="README文档添加了关于token的说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="README文档添加了关于token的说明" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585989448538">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585990327109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585989448538" />
-    <state x="708" y="275" key="FileChooserDialogImpl" timestamp="1585985320062">
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585990327109" />
+    <state x="708" y="275" key="FileChooserDialogImpl" timestamp="1585990577603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="708" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585985320062" />
+    <state x="708" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585990577603" />
     <state x="901" y="443" width="573" height="205" key="Github.ShareDialog" timestamp="1585604256309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -307,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585986908149" />
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585989459233">
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585990337274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585989459233" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585990337274" />
     <state x="641" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585657992593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="512" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1585451419464" />
-    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1585988467712">
+    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1585990234671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585988467712" />
+    <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585990234671" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1585989429068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
