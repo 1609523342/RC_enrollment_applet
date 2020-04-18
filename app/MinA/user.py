@@ -16,7 +16,6 @@ def user_wx_login():
     JS_CODE = request.headers['JS_CODE']
     app.config['JS_CODE'] = JS_CODE
     Api = app.config['WX_LOGIN_API'] + '&js_code={}'.format(JS_CODE)
-    print(Api)
     response = requests.get(Api)
     user_data = response.json()
     openid = user_data['openid']

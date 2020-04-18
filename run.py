@@ -5,10 +5,9 @@ from app.models.Base_model import db
 from app.forms.error_code import Success, SQLException
 from flask import jsonify
 
-
 app = creat_app()
 
-
+#写入超管信息
 @app.route('/superadmin/', methods=['POST'])#clear
 def creat_super():
     data = SuperUser.query.filter(SuperUser.account =='super_admins').first()

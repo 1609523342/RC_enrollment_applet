@@ -27,9 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/MinA/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/MinA/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +173,7 @@
       <workItem from="1585798136263" duration="7393000" />
       <workItem from="1585826839183" duration="9165000" />
       <workItem from="1585967028255" duration="9074000" />
-      <workItem from="1587171483888" duration="4768000" />
+      <workItem from="1587171483888" duration="5969000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587173924476</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加了在headers获取js_code的功能">
+      <created>1587178097063</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587178097063</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,13 +308,14 @@
     <MESSAGE value="添加了关于状态码的文档" />
     <MESSAGE value="添加了python.gitignore文件，忽略部分文件的上传" />
     <MESSAGE value="修改了README.md格式标题格式不正确的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了README.md格式标题格式不正确的问题" />
+    <MESSAGE value="添加了在headers获取js_code的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了在headers获取js_code的功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1587173922271">
+    <state x="23" y="111" key="CommitChangelistDialog2" timestamp="1587178092633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173922271" />
+    <state x="23" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587178092633" />
     <state x="253" y="112" key="DiffContextDialog" timestamp="1587173448654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,22 +332,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="882" y="250" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585604387703" />
-    <state width="1261" height="272" key="GridCell.Tab.0.bottom" timestamp="1587177738746">
+    <state width="1261" height="272" key="GridCell.Tab.0.bottom" timestamp="1587178293474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
-    <state width="1261" height="272" key="GridCell.Tab.0.center" timestamp="1587177738746">
+    <state width="1261" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587178293474" />
+    <state width="1261" height="272" key="GridCell.Tab.0.center" timestamp="1587178293474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
-    <state width="1261" height="272" key="GridCell.Tab.0.left" timestamp="1587177738746">
+    <state width="1261" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587178293474" />
+    <state width="1261" height="272" key="GridCell.Tab.0.left" timestamp="1587178293474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
-    <state width="1261" height="272" key="GridCell.Tab.0.right" timestamp="1587177738746">
+    <state width="1261" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587178293474" />
+    <state width="1261" height="272" key="GridCell.Tab.0.right" timestamp="1587178293474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1261" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
+    <state width="1261" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587178293474" />
     <state width="1540" height="344" key="GridCell.Tab.1.bottom" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
