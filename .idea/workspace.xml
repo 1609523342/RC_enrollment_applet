@@ -170,7 +170,7 @@
       <workItem from="1585798136263" duration="7393000" />
       <workItem from="1585826839183" duration="9165000" />
       <workItem from="1585967028255" duration="9074000" />
-      <workItem from="1587171483888" duration="1952000" />
+      <workItem from="1587171483888" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587173192731</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加了python.gitignore文件，忽略部分文件的上传">
+      <created>1587173463297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587173463297</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,10 +293,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加了python.gitignore文件，忽略部分文件的上传" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1585990804865">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1587173461073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585990804865" />
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173461073" />
+    <state x="253" y="112" key="DiffContextDialog" timestamp="1587173448654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="253" y="112" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587173448654" />
     <state x="708" y="275" key="FileChooserDialogImpl" timestamp="1585990577603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,10 +349,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585986908149" />
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585990809095">
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587173552831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585990809095" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173552831" />
     <state x="641" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585657992593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

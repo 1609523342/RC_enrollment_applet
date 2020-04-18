@@ -1,21 +1,21 @@
-#简易报名小程序
+# 简易报名小程序
 
-##项目简介
+## 项目简介
 该项目是使用python语言的flask框架实现的一个简单的报名程序的后端。
 主要功能包括：报名表的增删改查，权限管理。后续会继续更新一些比较实用的功能
 使该项目使用起来更加便捷更加贴合实际。
 
-##所需基础
+## 所需基础
 需要熟悉python语言并且对flask框架有一定的了解。
 数据库使用的是mysql数据库
 
-##使用说明
-###环境配置
+## 使用说明
+### 环境配置
 MySQL (version: 5.6+)
 Python (version: 3.5+)
 编译器建议使用pycharm，社区版专业版均可
 
-###安装依赖包
+### 安装依赖包
 建议安装pipenv创建虚拟环境
 安装命令：
 ```shell
@@ -39,7 +39,7 @@ pipenv shell
 pip install -r requirements
 ```
 环境配置完成
-###修改配置文件
+### 修改配置文件
 配置文件在app目录下的config.py文件中
 SQLALCHEMY_DATABASE_URI为连接数据库的配置
 配置示例：
@@ -63,7 +63,7 @@ APPID、SECRET、JS_CODE、GRANT_TYPE为微信登录获取openid的必备参数�
 
 https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/login/auth.code2Session.html
 
-###运行
+### 运行
 在Terminal下先输入
 ```shell
 pipenv shell
@@ -82,7 +82,7 @@ python run.py
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 则运行成功
-###请求携带token
+### 请求携带token
 token的构造有两种方式，第一种是通过访问微信的登录接口获取openid来构造token,该token必须以
 
 token:XXX
