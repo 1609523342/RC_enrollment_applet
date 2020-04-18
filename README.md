@@ -10,6 +10,7 @@
 数据库使用的是mysql数据库
 
 ## 使用说明
+
 ### 环境配置
 MySQL (version: 5.6+)
 Python (version: 3.5+)

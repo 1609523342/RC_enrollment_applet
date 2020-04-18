@@ -27,6 +27,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2638ece4-35f6-4c90-83cc-475cf549b181" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/MinA/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/MinA/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +173,7 @@
       <workItem from="1585798136263" duration="7393000" />
       <workItem from="1585826839183" duration="9165000" />
       <workItem from="1585967028255" duration="9074000" />
-      <workItem from="1587171483888" duration="2317000" />
+      <workItem from="1587171483888" duration="4768000" />
     </task>
     <task id="LOCAL-00001" summary="修改了endpoint异常">
       <created>1585604952895</created>
@@ -249,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587173463297</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="修改了README.md格式标题格式不正确的问题">
+      <created>1587173924476</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587173924476</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,13 +300,14 @@
     <MESSAGE value="README文档添加了关于token的说明" />
     <MESSAGE value="添加了关于状态码的文档" />
     <MESSAGE value="添加了python.gitignore文件，忽略部分文件的上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了python.gitignore文件，忽略部分文件的上传" />
+    <MESSAGE value="修改了README.md格式标题格式不正确的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了README.md格式标题格式不正确的问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1587173461073">
+    <state x="627" y="113" key="CommitChangelistDialog2" timestamp="1587173922271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173461073" />
+    <state x="627" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173922271" />
     <state x="253" y="112" key="DiffContextDialog" timestamp="1587173448654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,22 +324,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="882" y="250" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585604387703" />
-    <state width="1678" height="276" key="GridCell.Tab.0.bottom" timestamp="1585996694398">
+    <state width="1261" height="272" key="GridCell.Tab.0.bottom" timestamp="1587177738746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1678" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585996694398" />
-    <state width="1678" height="276" key="GridCell.Tab.0.center" timestamp="1585996694398">
+    <state width="1261" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
+    <state width="1261" height="272" key="GridCell.Tab.0.center" timestamp="1587177738746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1678" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585996694398" />
-    <state width="1678" height="276" key="GridCell.Tab.0.left" timestamp="1585996694397">
+    <state width="1261" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
+    <state width="1261" height="272" key="GridCell.Tab.0.left" timestamp="1587177738746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1678" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585996694397" />
-    <state width="1678" height="276" key="GridCell.Tab.0.right" timestamp="1585996694398">
+    <state width="1261" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
+    <state width="1261" height="272" key="GridCell.Tab.0.right" timestamp="1587177738746">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1678" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585996694398" />
+    <state width="1261" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587177738746" />
     <state width="1540" height="344" key="GridCell.Tab.1.bottom" timestamp="1585742754642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -349,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="295" y="131" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585986908149" />
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587173552831">
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2" timestamp="1587173928220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173552831" />
+    <state x="504" y="265" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587173928220" />
     <state x="641" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585657992593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -367,6 +378,6 @@
     <state x="1169" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585990234671" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1585989429068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$run.coverage" NAME="run Coverage Results" MODIFIED="1587177738738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
