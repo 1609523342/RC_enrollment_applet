@@ -112,17 +112,17 @@ def data_to_dict(data):
 
 def print_data(messages):
     department = app.config['ROOT_AND_DEPARTMENT_NAME']
-    datas = [messages.student_id, messages.student_name, messages.sex, messages.birth, messages.grade, messages.major,
+    data = [messages.student_id, messages.student_name, messages.sex, messages.birth, messages.grade, messages.major,
              messages.classes, messages.post, messages.other_organization, messages.Speciality, messages.QQ,
              messages.email, messages.phone_number, messages.short_phone, department[int(messages.first_choice)],
              department[int(messages.second_choice)], messages.Personal_profile, messages.Compliance_or_not,
              messages.Ideas_and_creativity, messages.photo_url, messages.Purpose_of_joining, messages.Submission_time]
-    return datas
+    return data
 
 
 def print_column():
-    Column = ['student_id', 'student_name', 'sex', 'birth', 'grade', 'major', 'classes', 'post', 'other_organization',
+    column = ['student_id', 'student_name', 'sex', 'birth', 'grade', 'major', 'classes', 'post', 'other_organization',
               'Speciality', 'QQ', 'email', 'phone_number', 'short_phone', 'first_choice', 'second_choice',
               'Personal_profile', 'Compliance_or_not', 'Ideas_and_creativity', 'photo_url', 'Purpose_of_joining',
               'Submission_time']
-    return Column
+    return column

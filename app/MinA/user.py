@@ -11,12 +11,13 @@ from app.forms.error_code import LoginException, Success, SQLException, SQLMissE
 from flask import make_response
 from app.MinA.Authentication import auth_root
 
+
 @MinAs.route('/wxUser/', methods=['POST'])#clear
 def user_wx_login():
-    JS_CODE = request.headers['JS_CODE']
-    app.config['JS_CODE'] = JS_CODE
-    Api = app.config['WX_LOGIN_API'] + '&js_code={}'.format(JS_CODE)
-    response = requests.get(Api)
+    js_code = request.headers['JS_CODE']
+    app.config['JS_CODE'] = js_code
+    api = app.config['WX_LOGIN_API'] + '&js_code={}'.format(js_code)
+    response = requests.get(api)
     user_data = response.json()
     openid = user_data['openid']
     sql_data = User.query.filter(User.openid == openid).first()
@@ -28,7 +29,7 @@ def user_wx_login():
 
 
 @MinAs.route('/webUser/', methods=['POST'])#clear
-def User_web_login():
+def user_web_login():
     form = WebLoginWtforms(request.form)
     form.validate_error_message()
     superusers = SuperUser.query.filter(SuperUser.account == form.account.data).first()
@@ -54,7 +55,7 @@ def manager_auth():
             try:
                 db.session.add(superuers)
                 db.session.commit()
-            except:
+            except Exception as e:
                 SQLException(msg='无法写入数据库')
         else:
             raise SQLException(msg='此账号已存在，创建失败')
@@ -124,7 +125,6 @@ def wx_register_root():
     if request.method == 'GET':
         users = User.query.filter(User.openid == g.openid).first()
         return jsonify(show_root_message(users))
-
 
 
 def creat_token(token_context, time=app.config['WX_TIME']):

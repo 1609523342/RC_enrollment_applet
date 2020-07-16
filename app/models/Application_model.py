@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String
 from werkzeug.security import check_password_hash
 from app.models.Base_model import BaseModel, AdminBaseModel
 from werkzeug.security import generate_password_hash
+from app.models.Base_model import db
 
 class message(BaseModel):
     __abstract__ = False
@@ -51,5 +52,9 @@ class SuperUser(AdminBaseModel):
     def check_password(self, key):
         return check_password_hash(self._password, key)
 
+
+class SwitchList(db.Model):
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    account = Column(String(12), nullable=False, unique=True)
 
 

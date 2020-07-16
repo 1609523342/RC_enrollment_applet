@@ -60,3 +60,7 @@ class ChangePasswordWtform(BaseForm):
     password = StringField(validators=[DataRequired(message='密码不能为空')])
     password1 = StringField(validators=[DataRequired(message='新密码不能为空'), length(min=8, max=16, message='密码长度要求为8~16，请检查长度是否正确')])
     password2 = StringField(validators=[EqualTo('password1', message='两次密码不相同请重新输入')])
+
+
+class AccessAccount(BaseForm):
+    account = StringField(validators=[DataRequired(length(12, message='账号长度不正确请重新输入'))])
